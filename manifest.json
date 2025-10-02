@@ -1,0 +1,16 @@
+{
+  "name": "EZFixable",
+  "short_name": "EZFixable",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a365d",
+  "theme_color": "#1a365d",
+  "icons": [
+    {
+      "src": "https://customer-assets.emergentagent.com/job_ezfixable-landing/artifacts/1esvhsuc_photo_2025-09-11_23-07-46.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ]
+}
