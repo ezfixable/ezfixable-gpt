@@ -1,38 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Thank you — EZFixable</title>
-  <meta name="robots" content="noindex" />
-
-  <!-- Единственный тег Google Ads -->
+  <style>body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;padding:40px;line-height:1.6}</style>
+  <!-- (необязательно) событие конверсии -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16906127667"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'AW-16906127667');
-
-    // Конверсия по загрузке страницы "спасибо"
-    gtag('event', 'conversion', {
-      'send_to': 'AW-16906127667/2szgCIvQ3rUbELOSvP0-',
-      'value': 1.0,
-      'currency': 'USD'
-    });
+    window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);} gtag('js', new Date());
+    gtag('config','AW-16906127667');
+    gtag('event','conversion',{'send_to':'AW-16906127667/2szgCIvQ3rUbELOSvP0-','value':1.0,'currency':'USD'});
   </script>
-
-  <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial,sans-serif;background:#f7fafc;color:#1a365d;margin:0}
-    .card{max-width:720px;margin:14vh auto;background:#fff;border-radius:16px;padding:32px;box-shadow:0 10px 40px rgba(0,0,0,.08);text-align:center}
-    a.btn{display:inline-block;margin-top:18px;padding:12px 18px;border-radius:10px;background:#1a365d;color:#fff;text-decoration:none}
-  </style>
 </head>
 <body>
-  <div class="card">
-    <h1>Thanks! Your request was sent.</h1>
-    <p>We’ll contact you shortly. If it’s urgent, call <a href="tel:+13233881315">+1 (323) 388-1315</a>.</p>
-    <a class="btn" href="/">↩ Back to Home</a>
-  </div>
+  <h1>Thank you! We received your request.</h1>
+  <p>Our technician will contact you shortly. For urgent help call <a href="tel:+13233881315">+1 323-388-1315</a>.</p>
+  <p><a href="/">← Back to home</a></p>
 </body>
 </html>
